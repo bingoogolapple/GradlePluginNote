@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+apply plugin: 'bga-hello-gradle-plugin'
+apply plugin: cn.bingoogolapple.gradlepluginnote.buildsrc.CurrentProjectPlugin
+
+dependencies {
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
